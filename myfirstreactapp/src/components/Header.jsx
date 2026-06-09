@@ -4,15 +4,9 @@ const Header = () => {
   return (
     <header className="bg-orange-700 h-20 flex items-center justify-between px-10">
       <div>
-       
-        <img
-          src="circleLogo.png"
-          alt="logo"
-          className="h-18"
-        />
+        <img src="/image.png" alt="" className="h-15" />
       </div>
 
-     
       <div className="flex items-center gap-6">
         <button className="text-white font-medium hover:text-gray-200 transition">
           Login
@@ -22,7 +16,6 @@ const Header = () => {
           Register
         </button>
       </div>
-
     </header>
   );
 };
